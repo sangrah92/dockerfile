@@ -1,4 +1,4 @@
-ARG PACKS="file:///tmp/stackstorm-st2"
+ARG PACKS="./stackstorm-email/tmp/stackstorm-st2"
 
 FROM stackstorm/st2packs:builder AS builder
 # considering you have your "local" pack under the `stackstorm-st2` dir relative to Dockerfile
